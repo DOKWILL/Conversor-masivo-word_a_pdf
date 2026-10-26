@@ -1,0 +1,9 @@
+# Requerimientos para Conversor Masivo DOCX a PDF (Streamlit)
+streamlit>=1.30.0
+
+# Motor de renderizado nativo COM para Windows (fidelidad 100% de Office)
+pywin32>=306; sys_platform == 'win32'
+
+# Motor de compresión y optimización inteligente de PDF sin pérdida visual
+pypdf>=5.0.0
+Pillow>=10.0.0
